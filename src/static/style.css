@@ -11,3 +11,7 @@
 .dz:hover {
     background-color: aliceblue !important;
 }
+
+.rounded {
+    border-radius: 50%;
+}

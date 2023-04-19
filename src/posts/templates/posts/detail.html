@@ -76,6 +76,7 @@
             </button>
         </div>
     {% else %}
+        No Photos Exist <br>
     {% endif %}
 
     <a href="{% url 'posts:main-board' %}" id="back-btn" class="btn btn-info">back</a>
@@ -85,4 +86,5 @@
         <div class="spinner-border" role="status"></div>
     </div>
     <div class="mt-1" id="post-box"></div>
+    <div class="mt-1" id="user-box"></div>
 {% endblock content %}
